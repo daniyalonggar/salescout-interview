@@ -4,6 +4,7 @@
 // 3. Adds new users.
 // 4. Finds users with duplicate emails.
 
+<<<<<<< HEAD
 import mongoose, { Schema, Document } from 'mongoose';
 
 const userSchema = new Schema({
@@ -46,3 +47,17 @@ async function manageUsers(): Promise<DuplicatedUsers[]> {
 }
 
 export { manageUsers };
+=======
+// Use Mongoose library
+
+type DuplicatedUsers = {
+    email: string
+}
+
+async function manageUsers(): Promise<DuplicatedUsers[]> {
+    // Your code goes here   
+    return []
+}
+
+module.exports = { manageUsers }
+>>>>>>> fdcfbc733ec7b4e1fed69f6da05dfa4761905999

@@ -3,6 +3,7 @@
 // 2. Saves the keys with their values.
 // 3. Reads and outputs values for a given key.
 
+<<<<<<< HEAD
 
 import { createClient } from 'redis';
 
@@ -39,3 +40,12 @@ async function manageRedis(): Promise<void> {
 }
 
 export { manageRedis };
+=======
+// Use redis library
+
+async function manageRedis(): Promise<void> {
+    // Your code goes here
+}
+
+module.exports = { manageRedis };
+>>>>>>> fdcfbc733ec7b4e1fed69f6da05dfa4761905999

@@ -1,5 +1,6 @@
 // Implement a Counter component with two buttons:
 // “Increase” and “Decrease”, which displays the current counter value.
+<<<<<<< HEAD
 import React, { useState } from 'react';
 
 function Counter() {
@@ -18,3 +19,13 @@ function Counter() {
 }
 
 export default Counter;
+=======
+import React from 'react'
+
+function Counter() {
+    // Your code goes here
+    return (<></>)
+}
+
+export default Counter
+>>>>>>> fdcfbc733ec7b4e1fed69f6da05dfa4761905999

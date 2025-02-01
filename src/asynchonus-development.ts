@@ -14,6 +14,7 @@
 type RequestsResult = {
     data: any,
     status: number
+<<<<<<< HEAD
 };
 
 async function fetchAll(urls: string[]): Promise<RequestsResult[]> {
@@ -38,3 +39,13 @@ async function fetchAll(urls: string[]): Promise<RequestsResult[]> {
 
 export { fetchAll };  
 
+=======
+}
+
+async function fetchAll(urls: string[]): Promise<RequestsResult[]> {
+    //Your code goes here
+    return [];
+}
+
+module.exports = { fetchAll };
+>>>>>>> fdcfbc733ec7b4e1fed69f6da05dfa4761905999

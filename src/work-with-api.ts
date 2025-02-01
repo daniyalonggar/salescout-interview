@@ -2,6 +2,7 @@
 // returns posts that are longer than 100 characters.
 
 // API URL: https://jsonplaceholder.typicode.com/posts
+<<<<<<< HEAD
 
 import axios from 'axios';
 
@@ -24,3 +25,19 @@ async function fetchLongPosts(): Promise<APIResponseType[]> {
 }
 
 export { fetchLongPosts };  
+=======
+// Use axios library
+type APIResponseType = {
+    id: number,
+    userId: number
+    title: string,
+    body: string,
+}
+
+async function fetchLongPosts(): Promise<APIResponseType[]> {
+    // Your code goes here
+    return []
+}
+
+module.exports = { fetchLongPosts }
+>>>>>>> fdcfbc733ec7b4e1fed69f6da05dfa4761905999
